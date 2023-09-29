@@ -15,7 +15,6 @@ width="1080" />
 <br>
 Representation gap between aerial and ground sources: We use the bounding box with the same color to focus on the same region and highlight the differences between aerial (**left**) and ground (**right**) LiDAR scans. Scopes (<span style="color:cyan">cyan</span>): The aerial scans cover a large region, while ground scans cover only a local area. Coverages (<span style="color:lawngreen">green</span>): The aerial scans cover the top of the buildings, while ground scans cover more details on the ground. Densities (<span style="color:blue">blue</span>): The distribution and density of the points are different because of various scan patterns, effective ranges, and fidelity of LiDARs. Noise Patterns (<span style="color:red">red</span>): The aerial scans have larger noises, as we can see from a bird-eye view and top-down view of a corner of the building.
 <br>
-<br>
 
 # Network Architecture
 <img src="./resources/network.png" 
