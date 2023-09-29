@@ -6,13 +6,11 @@
 [![GitHub](https://img.shields.io/github/license/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/blob/master/LICENSE)
 
 
-This is the code base for:
-
 [CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](https://arxiv.org/abs/2303.17778).
 <br> Tianrui Guan, Aswath Muthuselvam, Montana Hoover, Xijun Wang, Jing Liang, Adarsh Jagan Sathyamoorthy, Damon Conover, Dinesh Manocha
 
 
-The CS-Campus3D Dataset can be accessed [here](https://drive.google.com/file/d/1rFwfK3LxjMQnzlG_v_73dk63KyphnNjy/view?usp=sharing).
+
 
 
 If you find this project useful in your research, please cite our work:
@@ -28,7 +26,9 @@ If you find this project useful in your research, please cite our work:
 
 ```
 
-# Setting up Environment
+
+# Getting Started
+## Setting up Environment
 
 ```
 conda create -n crossloc python=3.7 pandas tensorboard numpy -c conda-forge
@@ -51,10 +51,10 @@ cd MinkowskiEngine
 python setup.py install --blas_include_dirs=${CONDA_PREFIX}/include --blas=openblas
 ```
 
-# Dataset
+## Dataset
 
 
-## Oxford RobotCar dataset
+### Oxford RobotCar dataset
 
 Follow instruction of this [repo](https://github.com/mikacuy/pointnetvlad) or download benchmark_datasets.zip from [here](https://drive.google.com/drive/folders/1Wn1Lvvk0oAkwOUwR0R6apbrekdXAUg7D) and put /benchmark_datasets folder in /data folder.
 
@@ -65,18 +65,48 @@ python ./datasets/preprocess/generate_test_sets.py
 ```
 
 
-## CS-Campus3D (Ours)
+### CS-Campus3D (Ours)
 
-Download data [here](https://drive.google.com/file/d/1rFwfK3LxjMQnzlG_v_73dk63KyphnNjy/view?usp=sharing) and put /benchmark_datasets folder in /data folder.
+The **CS-Campus3D Dataset** can be accessed [here](https://drive.google.com/file/d/1rFwfK3LxjMQnzlG_v_73dk63KyphnNjy/view?usp=sharing).
+
+Download data and put /benchmark_datasets folder in /data folder.
 
 
-# Training
+## Training
 
 ```
 python main.py ./configs/<config_file>.py
 ```
 
 
-# Checkpoint
+## Evaluation
 
+```
+python main.py ./configs/<config_file>.py --mode val --resume_from <ckpt_location>.pth
+```
 
+### Checkpoints
+
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom">Name</th>
+<th valign="bottom">Dataset</th>
+<th valign="bottom">config</th>
+<th valign="bottom">ckpt</th>
+<!-- TABLE BODY -->
+<!-- ROW: maskformer2_R50_bs16_50ep -->
+ <tr>
+    <td align="left">Crossloc3D</td>
+    <td align="center">Oxford</td>
+    <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/oxford_ours.py">config</a></td>
+    <td align="left"><a href="https://github.com/rayguan97/M3DETR/blob/main/tools/cfgs/m3detr_models/m3detr_kitti2.yaml">ckpt</a></td>
+ </tr>
+ <tr>
+    <td align="left">Crossloc3D</td>
+    <td align="center">CS-Campus3D</td>
+    <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/campus_ours.py">config</a></td>
+    <td align="left"><a href="https://github.com/rayguan97/M3DETR/blob/main/tools/cfgs/m3detr_models/m3detr_kitti2.yaml">ckpt</a></td>
+ </tr>
+
+</tbody></table>
