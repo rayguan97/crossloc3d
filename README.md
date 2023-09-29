@@ -100,13 +100,13 @@ python main.py ./configs/<config_file>.py --mode val --resume_from <ckpt_locatio
     <td align="left">Crossloc3D</td>
     <td align="center">Oxford</td>
     <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/oxford_ours.py">config</a></td>
-    <td align="left"><a href="https://github.com/rayguan97/M3DETR/blob/main/tools/cfgs/m3detr_models/m3detr_kitti2.yaml">ckpt</a></td>
+    <td align="left"><a href="https://drive.google.com/file/d/1DC-6s0byNX3xL9FYpGRkNnlZSZdbjNag/view?usp=sharing">ckpt</a></td>
  </tr>
  <tr>
     <td align="left">Crossloc3D</td>
     <td align="center">CS-Campus3D</td>
     <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/campus_ours.py">config</a></td>
-    <td align="left"><a href="https://github.com/rayguan97/M3DETR/blob/main/tools/cfgs/m3detr_models/m3detr_kitti2.yaml">ckpt</a></td>
+    <td align="left"><a href="https://drive.google.com/file/d/1gbT6QDLgvbxkNb3JsGBDtPwHE3K_idCv/view?usp=sharing">ckpt</a></td>
  </tr>
 
 </tbody></table>
