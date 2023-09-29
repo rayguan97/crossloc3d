@@ -67,7 +67,7 @@ python ./datasets/preprocess/generate_test_sets.py
 
 ### CS-Campus3D (Ours)
 
-The **CS-Campus3D Dataset** can be accessed [here](https://drive.google.com/file/d/1rFwfK3LxjMQnzlG_v_73dk63KyphnNjy/view?usp=sharing).
+The dataset can be accessed [here](https://drive.google.com/file/d/1rFwfK3LxjMQnzlG_v_73dk63KyphnNjy/view?usp=sharing).
 
 Download data and put /benchmark_datasets folder in /data folder.
 
