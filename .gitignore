@@ -1,3 +1,4 @@
 *.pth
 data
 workspace
+__pycache__
