@@ -3,7 +3,8 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/network)
 [![GitHub issues](https://img.shields.io/github/issues/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/issues)
-[![GitHub](https://img.shields.io/github/license/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/rayguan97/crossloc3d)](https://github.com/rayguan97/crossloc3d/blob/master/LICENSE) \
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/crossloc3d-aerial-ground-cross-source-3d/3d-place-recognition-on-oxford-robotcar)](https://paperswithcode.com/sota/3d-place-recognition-on-oxford-robotcar?p=crossloc3d-aerial-ground-cross-source-3d)
 
 
 [CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition](https://arxiv.org/abs/2303.17778)
