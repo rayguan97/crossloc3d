@@ -50,10 +50,11 @@ conda install openblas-devel -c anaconda
 sudo apt-get install openexr libopenexr-dev
 conda install -c conda-forge openexr
 
+
 pip install laspy pytest addict pytorch-metric-learning==0.9.97 yapf==0.40.1 bitarray==1.6.0 h5py transforms3d open3d
 pip install tqdm setuptools==59.5.0 einops
 pip install bagpy utm pptk
-conda install openexr-python
+conda install -c conda-forge openexr-python
 pip install pyexr pyntcloud
 
 
