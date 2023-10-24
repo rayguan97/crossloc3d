@@ -47,7 +47,7 @@ conda install pytorch=1.9.1 torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 
 
 conda install openblas-devel -c anaconda
-sudo apt-get install openexr and libopenexr-dev
+sudo apt-get install openexr libopenexr-dev
 conda install -c conda-forge openexr
 
 pip install laspy pytest addict pytorch-metric-learning==0.9.97 yapf==0.40.1 bitarray==1.6.0 h5py transforms3d open3d
@@ -85,14 +85,14 @@ Download data and put /benchmark_datasets folder in /data folder.
 ## Training
 
 ```
-python main.py ./configs/<config_file>.py
+CUDA_VISIBLE_DEVICES=0 python main.py ./configs/<config_file>.py
 ```
 
 
 ## Evaluation
 
 ```
-python main.py ./configs/<config_file>.py --mode val --resume_from <ckpt_location>.pth
+CUDA_VISIBLE_DEVICES=0 python main.py ./configs/<config_file>.py --mode val --resume_from <ckpt_location>.pth
 ```
 
 ### Checkpoints
