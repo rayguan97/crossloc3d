@@ -78,7 +78,7 @@ python ./datasets/preprocess/generate_test_sets.py
 
 ### CS-Campus3D (Ours)
 
-The dataset can be accessed [here](https://drive.google.com/file/d/1yxVicykRMg_HAfZG2EQUl1R3_wxpxStd/view?usp=sharing).
+The dataset can be accessed [here](https://drive.google.com/drive/u/1/folders/1Rg1rtaI2DqSX_5HFgNbK9HMZZI3GUPrv).
 
 Download data and put /benchmark_datasets folder in /data folder.
 
@@ -117,7 +117,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py ./configs/<config_file>.py --mode val --re
     <td align="left">Crossloc3D</td>
     <td align="center">CS-Campus3D</td>
     <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/campus_ours.py">config</a></td>
-    <td align="left"><a href="https://drive.google.com/file/d/1aQmTrfIve8z18b67JBsFgqIIChkX7YqZ/view?usp=sharing">ckpt</a></td>
+    <td align="left"><a href="https://drive.google.com/drive/u/1/folders/1Rg1rtaI2DqSX_5HFgNbK9HMZZI3GUPrv">ckpt</a></td>
  </tr>
 
 </tbody></table>
