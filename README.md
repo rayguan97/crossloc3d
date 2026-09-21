@@ -111,7 +111,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py ./configs/<config_file>.py --mode val --re
     <td align="left">Crossloc3D</td>
     <td align="center">Oxford</td>
     <td align="left"><a href="https://github.com/rayguan97/crossloc3d/blob/main/configs/oxford_ours.py">config</a></td>
-    <td align="left"><a href="https://drive.google.com/file/d/1XHH5ephD6z3-BALODqarTP7nAA_nRpWT/view?usp=sharing">ckpt</a></td>
+    <td align="left"><a href="https://drive.google.com/drive/folders/1Oc7qK8AwTjdVG-OWMxgsD0n2iXXppQ6A?usp=sharing">ckpt</a></td>
  </tr>
  <tr>
     <td align="left">Crossloc3D</td>
